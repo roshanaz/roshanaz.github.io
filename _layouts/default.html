@@ -46,47 +46,14 @@
 
       </section>
       <section>
-       
+        <h3>Download</h3> 
           {{ content }}
 
       </section>
     </div>
-    <div class="wrapper">
-     <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-        <!-- <h1>{{ site.title | default: Roshanak Zakizadeh }}</h1> -->
-        <h1>Roshanak Zakizadeh</h1>
-        <!--{% if site.description or site.github.project_tagline %}
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-        {% endif %}-->
-        <!--<p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>-->
-        <!--<ul>
-        {% if site.show_downloads %}
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-        {% endif %}
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>-->
-      
-      </header>
-      <section>
-        <h3>Publications</h3>        
-        
-        <ul>
-        
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        
-          {{ content }}
-
-      </section>
-      <section>
-       
-          {{ content }}
-
-      </section>
-</div>
+    
+    
+   
     <footer>
     {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
