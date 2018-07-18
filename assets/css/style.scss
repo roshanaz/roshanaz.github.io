@@ -9,9 +9,20 @@
   border-radius: 8px;
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
-#top .content .flex_column .widget_nav_menu li a {
-    padding: 0.3em 3px;
+
+
+.main-navigation ul li {
+border-right: 1px solid #000;
 }
-#top .content .flex_column .widget_nav_menu li {
-    border: none!important;
+
+.main-navigation ul li:last-of-type {
+border-right: none;
+}
+
+.main-navigation ul ul li {
+border-right: none;
+}
+
+.main-navigation ul li:first-of-type {
+border-left: 1px solid #000;
 }
