@@ -17,11 +17,7 @@
   <body>
 
     <div class="wrapper">
-          <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'London')"><a href="#publication">Publicaytions</a></button>
-            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-          </div>
+
      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         <!-- <h1>{{ site.title | default: Roshanak Zakizadeh }}</h1> -->
         <h1>Roshanak Zakizadeh</h1>
@@ -36,7 +32,11 @@
         {% endif %}
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>-->
-      
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')"><a href="#publication">Publications</a></button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')"><a href="#download">Download</a></button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+          </div>
       </header>
       <section>
         <h3><a id="publication">Publications</a></h3>        
