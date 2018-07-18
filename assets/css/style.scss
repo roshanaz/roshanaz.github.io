@@ -9,3 +9,9 @@
   border-radius: 8px;
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
+#top .content .flex_column .widget_nav_menu li a {
+    padding: 0.3em 3px;
+}
+#top .content .flex_column .widget_nav_menu li {
+    border: none!important;
+}
