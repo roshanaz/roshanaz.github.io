@@ -15,12 +15,13 @@
     <![endif]-->
   </head>
   <body>
-    <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-      <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-   </div>
+
     <div class="wrapper">
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+          </div>
      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         <!-- <h1>{{ site.title | default: Roshanak Zakizadeh }}</h1> -->
         <h1>Roshanak Zakizadeh</h1>
