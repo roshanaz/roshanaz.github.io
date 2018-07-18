@@ -11,18 +11,8 @@
 }
 
 
-.main-navigation ul li {
-border-right: 1px solid #000;
-}
 
-.main-navigation ul li:last-of-type {
-border-right: none;
-}
-
-.main-navigation ul ul li {
-border-right: none;
-}
-
-.main-navigation ul li:first-of-type {
-border-left: 1px solid #000;
+.av-main-nav > li > a {
+border: none !important
+padding: 0 30px; 
 }
