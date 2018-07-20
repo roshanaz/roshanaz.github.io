@@ -38,6 +38,8 @@ header, section, footer {
 }
 
 a {
+  display:block;
+  padding: 15px 10px 17px 13px;
   color:#069;
   text-decoration:none;
 }
