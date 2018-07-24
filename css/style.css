@@ -346,7 +346,7 @@ footer {
 #cssmenu ul {
   list-style: none;
   margin: 0;
-  padding: 15px 25px;
+  padding: 0;
   line-height: 1;
   display: block;
   width:100%;
@@ -375,12 +375,12 @@ footer {
   color: #ffffff;
   text-decoration: none;
   display: block;
-  padding: 0 0;
+  padding: 15px 25px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
-  position: relative;
+  position: fixed;
   -webkit-transition: color .25s;
   -moz-transition: color .25s;
   -ms-transition: color .25s;
