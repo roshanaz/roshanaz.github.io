@@ -390,7 +390,7 @@ footer {
   color: #333333;
 }
 #cssmenu ul li a:hover:before {
-  width: 100%;
+  width: 900px;
 }
 #cssmenu ul li a:after {
   content: "";
