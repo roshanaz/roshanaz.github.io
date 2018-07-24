@@ -341,7 +341,7 @@ footer {
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
   background: #4c4e56;
-  width: auto;
+  width: 100%;
 }
 #cssmenu ul {
   list-style: none;
@@ -349,6 +349,7 @@ footer {
   padding: 0;
   line-height: 1;
   display: block;
+  width:100%;
   zoom: 1;
 }
 #cssmenu ul:after {
