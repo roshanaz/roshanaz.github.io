@@ -379,7 +379,7 @@ footer {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
-  position: absolute;
+  position: relative;
   -webkit-transition: color .25s;
   -moz-transition: color .25s;
   -ms-transition: color .25s;
