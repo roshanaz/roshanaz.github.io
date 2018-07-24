@@ -25,11 +25,18 @@
 
     
     <div class="wrapper">
-      <ul id="menu" style="background-color:#8ea8b4;width: 100%; list-style:none; text-align:left; display: inline-block; position:fixed; margin:0; top: 0; left:0; right:0;">
+      <!--<ul id="menu" style="background-color:#8ea8b4;width: 100%; list-style:none; text-align:left; display: inline-block; position:fixed; margin:0; top: 0; left:0; right:0;">
           <li style="display: inline-block; padding: 7px 15px 7px 10px; border-right:0px"><a style="font-size:18px;color:#3A7CBE" href="./index.html">Home</a></li>
           <li style="display: inline-block; padding: 7px 15px 7px 10px; border-right:0px"><a style="font-size:18px;color:#3A7CBE" href="./publication.html">Publications</a></li>
           <li  style="display: inline-block; padding: 7px 15px 7px 10px;border-right:0px; border-left:0px"><a style="font-size:18px;color:#3A7CBE" href="./datasets.html">Datasets</a></li>
-      </ul> 
+      </ul> -->
+      <div id='cssmenu'>
+       <ul>
+        <li class='active'><a href='./index.html'><span>Home</span></a></li>
+        <li><a href='./publication.html'><span>Publications</span></a></li>
+        <li class='last'><a href='./datasets.html'><span>Datasets</span></a></li>
+      </ul>
+     </div>
       
      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
       <!--<div style="clear: both">-->
