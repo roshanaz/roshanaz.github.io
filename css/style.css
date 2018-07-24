@@ -346,7 +346,7 @@ footer {
 #cssmenu ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 15px 25px;
   line-height: 1;
   display: block;
   width:100%;
@@ -398,7 +398,7 @@ footer {
   display: block;
   position: absolute;
   right: -3px;
-  top: 19px;
+  top: 0;
   height: 6px;
   width: 6px;
   background: #ffffff;
